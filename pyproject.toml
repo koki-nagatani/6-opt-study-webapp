@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "6-opt-study-webapp"
+version = "0.1.0"
+description = ""
+authors = ["koki-nagatani <nagatani0910@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+pulp = "^2.8.0"
+streamlit = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
